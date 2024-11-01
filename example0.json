@@ -1,0 +1,37 @@
+{
+  "dovolena_na_hadi_rece.pdf" : {
+    "url": "https://www.jf.cz/?download=283&tmstv=1714490297",
+    "meta": {
+      "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "schema": "http://schema.org/"
+      },
+      "@id": "",
+      "@type": "schema:Book",
+      "dc:title": "Dovolená na Hadí řece",
+      "dc:creator": "Jiří Fišer",
+      "dc:date": "2024-03-16",
+      "dc:type": "Text",
+      "dc:format": "application/pdf",
+      "dc:rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+    }
+  },
+
+  "testa" : {
+    "url": "https:/www.jf.cz",
+    "meta": {
+      "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "schema": "http://schema.org/"
+      },
+      "@id": "",
+      "@type": "schema:Book",
+      "dc:title": "Dovolená na Hadí řece",
+      "dc:creator": "Jiří Fišer",
+      "dc:date": "2024-03-16",
+      "dc:type": "Text",
+      "dc:format": "application/pdf",
+      "dc:rights": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+    }
+  }
+}
