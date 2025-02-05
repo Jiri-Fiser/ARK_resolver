@@ -11,14 +11,19 @@ path_splitter = re.compile(
 
 class ArkFormatError(Exception):
     pass
+
+
 @dataclass
 class ArkIdentifier:
     naan: str
     shoulder: str
     locid: str
 
-    def __repr__(self):
+    def __str__(self):
         return f"ark:/{self.naan}/{self.shoulder}{self.locid}"
+
+    def __repr__(self):
+        return  ArkIdentifier.normalize_id(f"ark:/{self.naan}/{self.shoulder}{self.locid}")
 
     @staticmethod
     def normalize_id(ident: str) -> str:
